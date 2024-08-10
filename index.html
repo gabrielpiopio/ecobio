@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EcoBio</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html"><img src="logo.png" alt="Logo EcoBio" class="logo"></a>
+            <a href="index.html"><h1>EcoBio</h1></a>
+            <nav>
+                <a href="#" class="btn verde" id="content-btn">Conteúdo</a>
+                <a href="sobre-nos.html" class="btn cinza">Sobre Nós</a>
+                <a href="jogos.html" class="btn cinza">Jogos</a>
+                <a href="duvidas.html" class="btn pequeno">Dúvidas</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="slider">
+        <div class="slides">
+            <div class="slide" id="slide1">
+                <h2>Título 1</h2>
+                <p>Texto sobre o tema 1.</p>
+            </div>
+            <div class="slide" id="slide2">
+                <h2>Título 2</h2>
+                <p>Texto sobre o tema 2.</p>
+            </div>
+            <div class="slide" id="slide3">
+                <h2>Título 3</h2>
+                <p>Texto sobre o tema 3.</p>
+            </div>
+            <div class="slide" id="slide4">
+                <h2>Título 4</h2>
+                <p>Texto sobre o tema 4.</p>
+            </div>
+        </div>
+        <button class="arrow left" onclick="prevSlide()">&#10094;</button>
+        <button class="arrow right" onclick="nextSlide()">&#10095;</button>
+    </div>
+
+    <div class="content-links" id="content-links">
+        <a href="organismo.html" class="btn verde">Organismo</a>
+        <a href="biosfera.html" class="btn verde">Biosfera</a>
+        <a href="ecologia.html" class="btn verde">Ecologia</a>
+        <a href="ecossistema.html" class="btn verde">Ecossistema</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
